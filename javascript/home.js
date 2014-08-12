@@ -1,5 +1,5 @@
 var messageString;
-var limit = 30;
+var limit = 21;
 var sectionDisplay;
 
 function runFizzBuzz() {

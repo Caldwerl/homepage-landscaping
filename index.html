@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="UTF-8">
     <title>Welcome Home</title>
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="skeleton.css" />
   </head>
-
   <body>
-
-    <header>
-
-      <img src="icon2.png" alt="my-logo" id="logo" />
-
-      <h1 id="header-title">
-        Brian's Demesne
-      </h1>
-
-      <nav id="header-nav">
-        <a href="" >Home</a>
-        <a href="" >Resume</a>
-        <a href="" >Things</a>
-        <a href="" >Contact</a>
-      </nav>
-
-    </header>
-
-    <article>
-      <h2>
-        Introduction
-      </h2>
-
-      <p>
-        Greetings. My name is Brian Caldwell.<br>
-        I recently moved to Seattle by driving cross country from Cocoa Beach, FL.<br>
-        I worked in Seoul, South Korea for two years. I really enjoyed the food and the scenery.<br>
-        감사합니다!
-      </p>
-
-      <ul>
-        <h4>Mountains I Hiked</h4>
-        <li>용문산 (Yongmunsan)</li>
-        <li>용마산 (Yongmasan)</li>
-        <li>아차산 (Achasan)</li>
-        <li>원미산 (Wonmisan)</li>
-        <li>북한산 (Bukhansan)</li>
-        <li>불암산 (Buramsan)</li>
-      </ul>
-      <hr>
-
-      <section id="fizzbuzz">
-       <p>
-        Please enjoy some complimentary FizzBuzz.
-       </p><br>
-       <button type="button" id="fizzbuzz-button" onclick="runFizzBuzz();">FizzButton</button>
-      </section>
-    </article>
-
-    <footer>
-      <h4 id="footer-title">
-        Contact Information
-      </h4>
-      <p id="contact-info">
-        Brian Caldwell<br>
-        My Street Address<br>
-        My City and State<br>
-        My Phone Number
-    </footer>
-
-    <script src="javascript/home.js"></script>
-
+    <div class="container_12">
+      <header>
+        <img src="icon2.png" alt="my-logo" id="logo" class="grid_2" />
+        <h1 id="header-title" class="grid_6">
+          Brian's Demesne
+        </h1>
+        <nav id="header-nav">
+          <a href="#" class="grid_2">Home</a>
+          <a href="#" class="grid_2">Resume</a>
+          <a href="#" class="grid_2">Things</a>
+          <a href="#" class="grid_2">Contact</a>
+        </nav>
+      </header>
+      <article>
+        <section class="grid_4">
+          <h2 class="letra">
+            Introduction
+          </h2>
+          <p class="letra">
+            Greetings. My name is Brian Caldwell.<br>
+            I recently moved to Seattle by driving cross country from Cocoa Beach, FL.<br>
+            I worked in Seoul, South Korea for two years. I really enjoyed the food and the scenery.
+            감사합니다!
+          </p>
+        </section>
+        <ul class="grid_4">
+          <h4 class="letra">Mountains I Hiked</h4>
+          <li>용문산 (Yongmunsan)</li>
+          <li>용마산 (Yongmasan)</li>
+          <li>아차산 (Achasan)</li>
+          <li>원미산 (Wonmisan)</li>
+          <li>북한산 (Bukhansan)</li>
+          <li>불암산 (Buramsan)</li>
+        </ul>
+        <section id="fizzbuzz" class="grid_4">
+         <p class="letra">
+          Please enjoy some complimentary FizzBuzz.
+         </p>
+         <button
+           type="button"
+           id="fizzbuzz-button"
+           onclick="runFizzBuzz();">FizzButton
+         </button>
+        </section>
+        <section id="video" class = "grid_8">
+          <iframe
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/tFXYuw96d0c?rel=0"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </section>
+      </article>
+      <footer>
+        <h4 id="footer-title" class="letra">
+          Contact Information
+        </h4>
+        <p id="contact-info" class="letra">
+          Brian Caldwell |
+          My Street Address |
+          My City and State |
+          My Phone Number
+      </footer>
+      <script src="javascript/home.js"></script>
+    </div>
   </body>
-
 </html>
+

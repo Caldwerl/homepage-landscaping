@@ -1,19 +1,22 @@
 
 body {
-  background-color:#000000;
+  background-image:url(../img/bg.jpg);
   color: #FFFFFF;
   font-family: ‘Trebuchet MS’;
+  background-size:cover;
 }
 
 header {
-  height: 170px;
+  height: 110px;
   margin-top: -20px;
   padding-top: 30px;
+  background-color: black;
+  margin-bottom: 10px;
 }
 
 nav a {
   color: #FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   margin: 15px;
   text-decoration: none;
@@ -21,47 +24,73 @@ nav a {
 
 #logo {
   float: left;
-  height: 170px;
-  width: 120px;
-  margin: 10px;
+  height: 100px;
+  width: 100px;
 }
 
 #header-title {
-  font-size: 3em;
+  font-size: 2.9em;
   margin: 20px;
+  font-weight: bolder;
+  color: #008B8B;
 }
 
 article {
   background-color: #4D4D41;
-  height: 100%;
+  height: 494px;
 }
 
-article>h2 {
-  margin: 20px;
-  font-size: 2.0em;
-  text-decoration: underline;
-}
-
-article>p {
-  margin: 20px;
+section>h2 {
   font-size: 1.5em;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
 }
 
+section>p {
+  font-size: 1.0em;
+  text-align: center;
+  line-height: 1.1em;
+}
 ul {
   font-size: 1.5em;
   list-style-type: circle;
-  margin: 30px;
 }
 
 ul>h4 {
-  margin: 20px 20px 5px -10px;
   text-align: left;
   text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+li{
+  margin-left: 35px;
+}
+#fizzbuzz {
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.5em;
+  float: right;
+  clear: right;
 }
 
-#fizzbuzz {
-  margin: 20px;
-  font-size: 1.3em;
+button{
+  background-color: #00FFFF;
+  color: black;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 8px;
+}
+
+button:hover{
+  border-color: blue;
+}
+
+#video{
+  margin-top: 10px;
+  text-align: center;
+  float: left;
+  clear: left;
 }
 
 #fizzb {
@@ -81,10 +110,15 @@ footer {
   height:100px;
   position: static;
   text-align: center;
+  line-height: 1.7em;
 }
 
 #footer-title {
   font-size: 1.2em;
-  margin-top: 15px;
+  margin-top: 10px;
   text-decoration: underline;
+  color: #008B8B;
+}
+.letra {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
