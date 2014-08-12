@@ -1,39 +1,39 @@
 
-header {
+body {
   background-color:#000000;
+  color: #FFFFFF;
+  font-family: ‘Trebuchet MS’;
+}
+
+header {
   height: 170px;
   margin-top: -20px;
   padding-top: 30px;
 }
 
 nav a {
-  color: white;
+  color: #FFFFFF;
   font-size: 1.2em;
+  font-weight: bold;
   margin: 15px;
   text-decoration: none;
 }
 
 #logo {
+  float: left;
   height: 170px;
   width: 120px;
-  float: left;
+  margin: 10px;
 }
 
 #header-title {
-  color: white;
   font-size: 3em;
-  font-family: ‘Trebuchet MS’;
   margin: 20px;
 }
 
 article {
-  color: white;
   background-color: #4D4D41;
-  font-family: ‘Trebuchet MS’;
-  position: absolute;
-  top: 180px;
-  bottom: 90px;
-  width: 100%;
+  height: 100%;
 }
 
 article>h2 {
@@ -44,29 +44,47 @@ article>h2 {
 
 article>p {
   margin: 20px;
-  font-size: 1.2em;
+  font-size: 1.5em;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style-type: circle;
+  margin: 30px;
+}
+
+ul>h4 {
+  margin: 20px 20px 5px -10px;
+  text-align: left;
+  text-decoration: underline;
 }
 
 #fizzbuzz {
   margin: 20px;
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+#fizzb {
+  color: #660066;
+}
+
+#fizz {
+  color: #003366;
+}
+
+#buzz {
+  color: #990000;
 }
 
 footer {
-  background-color:#000000;
-  color: white;
-  font-family: ‘Trebuchet MS’;
-  height:90px;
-  width: 100%;
-  margin-top: 50px;
-  padding-top: 30px;
-  position: absolute;
-  bottom: 0;
-  left:0;
+  background-color: #000000;
+  height:100px;
+  position: static;
   text-align: center;
 }
 
 #footer-title {
   font-size: 1.2em;
+  margin-top: 15px;
   text-decoration: underline;
 }
