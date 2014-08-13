@@ -88,7 +88,8 @@ body {
 }
 
 .container_12 .grid_4 {
-  width: 300px;
+	width: 300px;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 .container_12 .grid_5 {

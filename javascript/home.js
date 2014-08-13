@@ -1,10 +1,10 @@
 var messageString;
-var limit = 21;
+var limit = 25;
 var sectionDisplay;
 
 function runFizzBuzz() {
 
-  sectionDisplay = document.getElementById('fizzbuzz');
+  sectionDisplay = document.getElementById("fizzbuzz-button");
 
   messageString = "<p>";
 
