@@ -25,5 +25,5 @@ The overall design will be very simple with 3 basic colors, black, grey, and whi
 -------------------------
 ##<h1>Emmanuel Santos</h1>
 -------------------------
-<p>Updates were made to the basic layout. Added CSS, Skeleton, etc. Good team work... Thanks. </p>
+<p>Updates were made to the basic layout. Added CSS, Skeleton, etc. Good team work. Thanks. </p>
 <img src="http://pixabay.com/static/uploads/photo/2013/07/12/13/50/smiley-147407_640.png">
